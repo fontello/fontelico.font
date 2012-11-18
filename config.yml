@@ -86,9 +86,9 @@ meta:
   css_prefix: "icon-"
   columns: 4
 
-transform:
-  baseline: 0.4
-  rescale: 2.0
+#transform:
+#  baseline: 0.4
+#  rescale: 2.4
 
 font:
   version: "1.0"
@@ -149,11 +149,11 @@ glyphs:
     code: 0xe807
     uid: bb68a13a3574b087d4350eff0b8d48e3
     search: [emoticon, smiley ]
-  #-
-  #  css: smile_09
-  #  code: 0xe808
-  #  uid: 48cc210e59ff4bc56b6c8fba6eb384b8
-  #  search: [emoticon, smiley ]
+  -
+    css: smile_09
+    code: 0xe808
+    uid: 48cc210e59ff4bc56b6c8fba6eb384b8
+    search: [emoticon, smiley ]
   -
     css: smile_10
     code: 0xe809
@@ -164,11 +164,11 @@ glyphs:
     code: 0xe80a
     uid: 043b585886018be7408f4c77c1a3759c
     search: [emoticon, smiley ]
-  #-
-  #  css: smile_12
-  #  code: 0xe80b
-  #  uid: 043b585886018be7408f4c77c1a3759c
-  #  search: [emoticon, smiley ]
+  -
+    css: smile_12
+    code: 0xe80b
+    uid: 043b585886018be7408f4c77c1a3759c
+    search: [emoticon, smiley ]
   -
     css: smile_13
     code: 0xe80c
@@ -189,11 +189,11 @@ glyphs:
     code: 0xe80f
     uid: 04688d76a33ce7a7950e40fae79c08ac
     search: [emoticon, smiley ]
-  #-
-  #  css: smile_17
-  #  code: 0xe810
-  #  uid: 4843d0d6050dd508d4c101a334f46db2
-  #  search: [emoticon, smiley ]
+  -
+    css: smile_17
+    code: 0xe810
+    uid: 4843d0d6050dd508d4c101a334f46db2
+    search: [emoticon, smiley ]
   -
     css: smile_18
     code: 0xe811
