@@ -736,6 +736,553 @@ body {
 .i-code {
   display: none;
 }
+.animate-spin {
+  -moz-animation: spin 2s infinite linear;
+  -o-animation: spin 2s infinite linear;
+  -webkit-animation: spin 2s infinite linear;
+  animation: spin 2s infinite linear;
+}
+.animate-spin-30 {
+  -moz-animation: spin-30 2s cubic-bezier(1, 0, 0, 1) infinite;
+  -o-animation: spin-30 2s cubic-bezier(1, 0, 0, 1) infinite;
+  -webkit-animation: spin-30 2s cubic-bezier(1, 0, 0, 1) infinite;
+  animation: spin-30 2s cubic-bezier(1, 0, 0, 1) infinite;
+}
+@-moz-keyframes spin {
+  0% {
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  100% {
+    -moz-transform: rotate(359deg);
+    -o-transform: rotate(359deg);
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+@-webkit-keyframes spin {
+  0% {
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  100% {
+    -moz-transform: rotate(359deg);
+    -o-transform: rotate(359deg);
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+@-o-keyframes spin {
+  0% {
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  100% {
+    -moz-transform: rotate(359deg);
+    -o-transform: rotate(359deg);
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+@-ms-keyframes spin {
+  0% {
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  100% {
+    -moz-transform: rotate(359deg);
+    -o-transform: rotate(359deg);
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+@keyframes spin {
+  0% {
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  100% {
+    -moz-transform: rotate(359deg);
+    -o-transform: rotate(359deg);
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+@-moz-keyframes spin-30 {
+  0% {
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  8.333333333% {
+    -moz-transform: rotate(30deg);
+    -o-transform: rotate(30deg);
+    -webkit-transform: rotate(30deg);
+    transform: rotate(30deg);
+  }
+
+  16.666666666% {
+    -moz-transform: rotate(60deg);
+    -o-transform: rotate(60deg);
+    -webkit-transform: rotate(60deg);
+    transform: rotate(60deg);
+  }
+
+  24.999999999% {
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+  }
+
+  33.333333333% {
+    -moz-transform: rotate(120deg);
+    -o-transform: rotate(120deg);
+    -webkit-transform: rotate(120deg);
+    transform: rotate(120deg);
+  }
+
+  41, 666666667% {
+    -moz-transform: rotate(150deg);
+    -o-transform: rotate(150deg);
+    -webkit-transform: rotate(150deg);
+    transform: rotate(150deg);
+  }
+
+  50% {
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+  }
+
+  58.333333333% {
+    -moz-transform: rotate(210deg);
+    -o-transform: rotate(210deg);
+    -webkit-transform: rotate(210deg);
+    transform: rotate(210deg);
+  }
+
+  66.666666666% {
+    -moz-transform: rotate(240deg);
+    -o-transform: rotate(240deg);
+    -webkit-transform: rotate(240deg);
+    transform: rotate(240deg);
+  }
+
+  74.999999999% {
+    -moz-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    -webkit-transform: rotate(270deg);
+    transform: rotate(270deg);
+  }
+
+  83.333333333% {
+    -moz-transform: rotate(300deg);
+    -o-transform: rotate(300deg);
+    -webkit-transform: rotate(300deg);
+    transform: rotate(300deg);
+  }
+
+  91, 666666667% {
+    -moz-transform: rotate(330deg);
+    -o-transform: rotate(330deg);
+    -webkit-transform: rotate(330deg);
+    transform: rotate(330deg);
+  }
+
+  100% {
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes spin-30 {
+  0% {
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  8.333333333% {
+    -moz-transform: rotate(30deg);
+    -o-transform: rotate(30deg);
+    -webkit-transform: rotate(30deg);
+    transform: rotate(30deg);
+  }
+
+  16.666666666% {
+    -moz-transform: rotate(60deg);
+    -o-transform: rotate(60deg);
+    -webkit-transform: rotate(60deg);
+    transform: rotate(60deg);
+  }
+
+  24.999999999% {
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+  }
+
+  33.333333333% {
+    -moz-transform: rotate(120deg);
+    -o-transform: rotate(120deg);
+    -webkit-transform: rotate(120deg);
+    transform: rotate(120deg);
+  }
+
+  41, 666666667% {
+    -moz-transform: rotate(150deg);
+    -o-transform: rotate(150deg);
+    -webkit-transform: rotate(150deg);
+    transform: rotate(150deg);
+  }
+
+  50% {
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+  }
+
+  58.333333333% {
+    -moz-transform: rotate(210deg);
+    -o-transform: rotate(210deg);
+    -webkit-transform: rotate(210deg);
+    transform: rotate(210deg);
+  }
+
+  66.666666666% {
+    -moz-transform: rotate(240deg);
+    -o-transform: rotate(240deg);
+    -webkit-transform: rotate(240deg);
+    transform: rotate(240deg);
+  }
+
+  74.999999999% {
+    -moz-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    -webkit-transform: rotate(270deg);
+    transform: rotate(270deg);
+  }
+
+  83.333333333% {
+    -moz-transform: rotate(300deg);
+    -o-transform: rotate(300deg);
+    -webkit-transform: rotate(300deg);
+    transform: rotate(300deg);
+  }
+
+  91, 666666667% {
+    -moz-transform: rotate(330deg);
+    -o-transform: rotate(330deg);
+    -webkit-transform: rotate(330deg);
+    transform: rotate(330deg);
+  }
+
+  100% {
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@-o-keyframes spin-30 {
+  0% {
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  8.333333333% {
+    -moz-transform: rotate(30deg);
+    -o-transform: rotate(30deg);
+    -webkit-transform: rotate(30deg);
+    transform: rotate(30deg);
+  }
+
+  16.666666666% {
+    -moz-transform: rotate(60deg);
+    -o-transform: rotate(60deg);
+    -webkit-transform: rotate(60deg);
+    transform: rotate(60deg);
+  }
+
+  24.999999999% {
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+  }
+
+  33.333333333% {
+    -moz-transform: rotate(120deg);
+    -o-transform: rotate(120deg);
+    -webkit-transform: rotate(120deg);
+    transform: rotate(120deg);
+  }
+
+  41, 666666667% {
+    -moz-transform: rotate(150deg);
+    -o-transform: rotate(150deg);
+    -webkit-transform: rotate(150deg);
+    transform: rotate(150deg);
+  }
+
+  50% {
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+  }
+
+  58.333333333% {
+    -moz-transform: rotate(210deg);
+    -o-transform: rotate(210deg);
+    -webkit-transform: rotate(210deg);
+    transform: rotate(210deg);
+  }
+
+  66.666666666% {
+    -moz-transform: rotate(240deg);
+    -o-transform: rotate(240deg);
+    -webkit-transform: rotate(240deg);
+    transform: rotate(240deg);
+  }
+
+  74.999999999% {
+    -moz-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    -webkit-transform: rotate(270deg);
+    transform: rotate(270deg);
+  }
+
+  83.333333333% {
+    -moz-transform: rotate(300deg);
+    -o-transform: rotate(300deg);
+    -webkit-transform: rotate(300deg);
+    transform: rotate(300deg);
+  }
+
+  91, 666666667% {
+    -moz-transform: rotate(330deg);
+    -o-transform: rotate(330deg);
+    -webkit-transform: rotate(330deg);
+    transform: rotate(330deg);
+  }
+
+  100% {
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@-ms-keyframes spin-30 {
+  0% {
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  8.333333333% {
+    -moz-transform: rotate(30deg);
+    -o-transform: rotate(30deg);
+    -webkit-transform: rotate(30deg);
+    transform: rotate(30deg);
+  }
+
+  16.666666666% {
+    -moz-transform: rotate(60deg);
+    -o-transform: rotate(60deg);
+    -webkit-transform: rotate(60deg);
+    transform: rotate(60deg);
+  }
+
+  24.999999999% {
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+  }
+
+  33.333333333% {
+    -moz-transform: rotate(120deg);
+    -o-transform: rotate(120deg);
+    -webkit-transform: rotate(120deg);
+    transform: rotate(120deg);
+  }
+
+  41, 666666667% {
+    -moz-transform: rotate(150deg);
+    -o-transform: rotate(150deg);
+    -webkit-transform: rotate(150deg);
+    transform: rotate(150deg);
+  }
+
+  50% {
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+  }
+
+  58.333333333% {
+    -moz-transform: rotate(210deg);
+    -o-transform: rotate(210deg);
+    -webkit-transform: rotate(210deg);
+    transform: rotate(210deg);
+  }
+
+  66.666666666% {
+    -moz-transform: rotate(240deg);
+    -o-transform: rotate(240deg);
+    -webkit-transform: rotate(240deg);
+    transform: rotate(240deg);
+  }
+
+  74.999999999% {
+    -moz-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    -webkit-transform: rotate(270deg);
+    transform: rotate(270deg);
+  }
+
+  83.333333333% {
+    -moz-transform: rotate(300deg);
+    -o-transform: rotate(300deg);
+    -webkit-transform: rotate(300deg);
+    transform: rotate(300deg);
+  }
+
+  91, 666666667% {
+    -moz-transform: rotate(330deg);
+    -o-transform: rotate(330deg);
+    -webkit-transform: rotate(330deg);
+    transform: rotate(330deg);
+  }
+
+  100% {
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes spin-30 {
+  0% {
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  8.333333333% {
+    -moz-transform: rotate(30deg);
+    -o-transform: rotate(30deg);
+    -webkit-transform: rotate(30deg);
+    transform: rotate(30deg);
+  }
+
+  16.666666666% {
+    -moz-transform: rotate(60deg);
+    -o-transform: rotate(60deg);
+    -webkit-transform: rotate(60deg);
+    transform: rotate(60deg);
+  }
+
+  24.999999999% {
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+  }
+
+  33.333333333% {
+    -moz-transform: rotate(120deg);
+    -o-transform: rotate(120deg);
+    -webkit-transform: rotate(120deg);
+    transform: rotate(120deg);
+  }
+
+  41, 666666667% {
+    -moz-transform: rotate(150deg);
+    -o-transform: rotate(150deg);
+    -webkit-transform: rotate(150deg);
+    transform: rotate(150deg);
+  }
+
+  50% {
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+  }
+
+  58.333333333% {
+    -moz-transform: rotate(210deg);
+    -o-transform: rotate(210deg);
+    -webkit-transform: rotate(210deg);
+    transform: rotate(210deg);
+  }
+
+  66.666666666% {
+    -moz-transform: rotate(240deg);
+    -o-transform: rotate(240deg);
+    -webkit-transform: rotate(240deg);
+    transform: rotate(240deg);
+  }
+
+  74.999999999% {
+    -moz-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    -webkit-transform: rotate(270deg);
+    transform: rotate(270deg);
+  }
+
+  83.333333333% {
+    -moz-transform: rotate(300deg);
+    -o-transform: rotate(300deg);
+    -webkit-transform: rotate(300deg);
+    transform: rotate(300deg);
+  }
+
+  91, 666666667% {
+    -moz-transform: rotate(330deg);
+    -o-transform: rotate(330deg);
+    -webkit-transform: rotate(330deg);
+    transform: rotate(330deg);
+  }
+
+  100% {
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
 </style><style type="text/css">@font-face {
   font-family: 'fontelico';
   src: url("fontelico.eot");
@@ -752,9 +1299,14 @@ body {
   display: inline-block;
   text-decoration: inherit;
   min-width: 1.2em;
-  margin-right: 0.2em;
   text-align: center;
+  margin-right: 0.2em;
+  margin-left: 0.2em;
   opacity: 0.8;
+}
+[class^="icon-"],
+[class*=" icon-"] {
+  display: inline-block;
 }
 </style><style type="text/css">
 .icon-smile_01:before { content: '\e800'; } /* '' */
@@ -776,7 +1328,17 @@ body {
 .icon-smile_17:before { content: '\e810'; } /* '' */
 .icon-smile_18:before { content: '\e811'; } /* '' */
 .icon-smile_19:before { content: '\e812'; } /* '' */
-.icon-smile_20:before { content: '\e813'; } /* '' */</style><script>function toggleCodes(on) {
+.icon-smile_20:before { content: '\e813'; } /* '' */
+.icon-spinner_01:before { content: '\e830'; } /* '' */
+.icon-spinner_02:before { content: '\e831'; } /* '' */
+.icon-spinner_03:before { content: '\e832'; } /* '' */
+.icon-spinner_04:before { content: '\e833'; } /* '' */
+.icon-spinner_05:before { content: '\e834'; } /* '' */
+.icon-spinner_06:before { content: '\e835'; } /* '' */
+.icon-spinner_07:before { content: '\e836'; } /* '' */
+.icon-spinner_08:before { content: '\e837'; } /* '' */
+.icon-spinner_09:before { content: '\e838'; } /* '' */
+.icon-spinner_10:before { content: '\e839'; } /* '' */</style><script>function toggleCodes(on) {
   var obj = document.getElementById('icons');
   
   if (on) {
@@ -786,4 +1348,4 @@ body {
   }
 }
 </script></head><body><div class="container header"><h1>Fontelico
- <small>font demo</small></h1><label class="switch"><input type="checkbox" onclick="toggleCodes(this.checked)">show codes</label></div><div id="icons" class="container"><div class="row"><div class="span3"><ul class="the-icons unstyled"><li title="Code: 0xe800"><i class="icon-smile_01"></i> <span class="i-name">icon-smile_01</span><span class="i-code">0xe800</span></li><li title="Code: 0xe801"><i class="icon-smile_02"></i> <span class="i-name">icon-smile_02</span><span class="i-code">0xe801</span></li><li title="Code: 0xe802"><i class="icon-smile_03"></i> <span class="i-name">icon-smile_03</span><span class="i-code">0xe802</span></li><li title="Code: 0xe803"><i class="icon-smile_04"></i> <span class="i-name">icon-smile_04</span><span class="i-code">0xe803</span></li><li title="Code: 0xe804"><i class="icon-smile_05"></i> <span class="i-name">icon-smile_05</span><span class="i-code">0xe804</span></li></ul></div><div class="span3"><ul class="the-icons unstyled"><li title="Code: 0xe805"><i class="icon-smile_06"></i> <span class="i-name">icon-smile_06</span><span class="i-code">0xe805</span></li><li title="Code: 0xe806"><i class="icon-smile_07"></i> <span class="i-name">icon-smile_07</span><span class="i-code">0xe806</span></li><li title="Code: 0xe807"><i class="icon-smile_08"></i> <span class="i-name">icon-smile_08</span><span class="i-code">0xe807</span></li><li title="Code: 0xe808"><i class="icon-smile_09"></i> <span class="i-name">icon-smile_09</span><span class="i-code">0xe808</span></li><li title="Code: 0xe809"><i class="icon-smile_10"></i> <span class="i-name">icon-smile_10</span><span class="i-code">0xe809</span></li></ul></div><div class="span3"><ul class="the-icons unstyled"><li title="Code: 0xe80a"><i class="icon-smile_11"></i> <span class="i-name">icon-smile_11</span><span class="i-code">0xe80a</span></li><li title="Code: 0xe80b"><i class="icon-smile_12"></i> <span class="i-name">icon-smile_12</span><span class="i-code">0xe80b</span></li><li title="Code: 0xe80c"><i class="icon-smile_13"></i> <span class="i-name">icon-smile_13</span><span class="i-code">0xe80c</span></li><li title="Code: 0xe80d"><i class="icon-smile_14"></i> <span class="i-name">icon-smile_14</span><span class="i-code">0xe80d</span></li><li title="Code: 0xe80e"><i class="icon-smile_15"></i> <span class="i-name">icon-smile_15</span><span class="i-code">0xe80e</span></li></ul></div><div class="span3"><ul class="the-icons unstyled"><li title="Code: 0xe80f"><i class="icon-smile_16"></i> <span class="i-name">icon-smile_16</span><span class="i-code">0xe80f</span></li><li title="Code: 0xe810"><i class="icon-smile_17"></i> <span class="i-name">icon-smile_17</span><span class="i-code">0xe810</span></li><li title="Code: 0xe811"><i class="icon-smile_18"></i> <span class="i-name">icon-smile_18</span><span class="i-code">0xe811</span></li><li title="Code: 0xe812"><i class="icon-smile_19"></i> <span class="i-name">icon-smile_19</span><span class="i-code">0xe812</span></li><li title="Code: 0xe813"><i class="icon-smile_20"></i> <span class="i-name">icon-smile_20</span><span class="i-code">0xe813</span></li></ul></div></div></div></body></html>
+ <small>font demo</small></h1><label class="switch"><input type="checkbox" onclick="toggleCodes(this.checked)">show codes</label></div><div id="icons" class="container"><div class="row"><div class="span3"><ul class="the-icons unstyled"><li title="Code: 0xe800"><i class="icon-smile_01"></i> <span class="i-name">icon-smile_01</span><span class="i-code">0xe800</span></li><li title="Code: 0xe801"><i class="icon-smile_02"></i> <span class="i-name">icon-smile_02</span><span class="i-code">0xe801</span></li><li title="Code: 0xe802"><i class="icon-smile_03"></i> <span class="i-name">icon-smile_03</span><span class="i-code">0xe802</span></li><li title="Code: 0xe803"><i class="icon-smile_04"></i> <span class="i-name">icon-smile_04</span><span class="i-code">0xe803</span></li><li title="Code: 0xe804"><i class="icon-smile_05"></i> <span class="i-name">icon-smile_05</span><span class="i-code">0xe804</span></li><li title="Code: 0xe805"><i class="icon-smile_06"></i> <span class="i-name">icon-smile_06</span><span class="i-code">0xe805</span></li><li title="Code: 0xe806"><i class="icon-smile_07"></i> <span class="i-name">icon-smile_07</span><span class="i-code">0xe806</span></li><li title="Code: 0xe807"><i class="icon-smile_08"></i> <span class="i-name">icon-smile_08</span><span class="i-code">0xe807</span></li></ul></div><div class="span3"><ul class="the-icons unstyled"><li title="Code: 0xe808"><i class="icon-smile_09"></i> <span class="i-name">icon-smile_09</span><span class="i-code">0xe808</span></li><li title="Code: 0xe809"><i class="icon-smile_10"></i> <span class="i-name">icon-smile_10</span><span class="i-code">0xe809</span></li><li title="Code: 0xe80a"><i class="icon-smile_11"></i> <span class="i-name">icon-smile_11</span><span class="i-code">0xe80a</span></li><li title="Code: 0xe80b"><i class="icon-smile_12"></i> <span class="i-name">icon-smile_12</span><span class="i-code">0xe80b</span></li><li title="Code: 0xe80c"><i class="icon-smile_13"></i> <span class="i-name">icon-smile_13</span><span class="i-code">0xe80c</span></li><li title="Code: 0xe80d"><i class="icon-smile_14"></i> <span class="i-name">icon-smile_14</span><span class="i-code">0xe80d</span></li><li title="Code: 0xe80e"><i class="icon-smile_15"></i> <span class="i-name">icon-smile_15</span><span class="i-code">0xe80e</span></li><li title="Code: 0xe80f"><i class="icon-smile_16"></i> <span class="i-name">icon-smile_16</span><span class="i-code">0xe80f</span></li></ul></div><div class="span3"><ul class="the-icons unstyled"><li title="Code: 0xe810"><i class="icon-smile_17"></i> <span class="i-name">icon-smile_17</span><span class="i-code">0xe810</span></li><li title="Code: 0xe811"><i class="icon-smile_18"></i> <span class="i-name">icon-smile_18</span><span class="i-code">0xe811</span></li><li title="Code: 0xe812"><i class="icon-smile_19"></i> <span class="i-name">icon-smile_19</span><span class="i-code">0xe812</span></li><li title="Code: 0xe813"><i class="icon-smile_20"></i> <span class="i-name">icon-smile_20</span><span class="i-code">0xe813</span></li><li title="Code: 0xe830"><i class="icon-spinner_01 animate-spin"></i> <span class="i-name">icon-spinner_01</span><span class="i-code">0xe830</span></li><li title="Code: 0xe831"><i class="icon-spinner_02 animate-spin"></i> <span class="i-name">icon-spinner_02</span><span class="i-code">0xe831</span></li><li title="Code: 0xe832"><i class="icon-spinner_03 animate-spin"></i> <span class="i-name">icon-spinner_03</span><span class="i-code">0xe832</span></li><li title="Code: 0xe833"><i class="icon-spinner_04 animate-spin"></i> <span class="i-name">icon-spinner_04</span><span class="i-code">0xe833</span></li></ul></div><div class="span3"><ul class="the-icons unstyled"><li title="Code: 0xe834"><i class="icon-spinner_05 animate-spin"></i> <span class="i-name">icon-spinner_05</span><span class="i-code">0xe834</span></li><li title="Code: 0xe835"><i class="icon-spinner_06 animate-spin"></i> <span class="i-name">icon-spinner_06</span><span class="i-code">0xe835</span></li><li title="Code: 0xe836"><i class="icon-spinner_07 animate-spin-30"></i> <span class="i-name">icon-spinner_07</span><span class="i-code">0xe836</span></li><li title="Code: 0xe837"><i class="icon-spinner_08 animate-spin-30"></i> <span class="i-name">icon-spinner_08</span><span class="i-code">0xe837</span></li><li title="Code: 0xe838"><i class="icon-spinner_09"></i> <span class="i-name">icon-spinner_09</span><span class="i-code">0xe838</span></li><li title="Code: 0xe839"><i class="icon-spinner_10 animate-spin"></i> <span class="i-name">icon-spinner_10</span><span class="i-code">0xe839</span></li></ul></div></div></div></body></html>

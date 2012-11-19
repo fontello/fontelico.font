@@ -1,0 +1,97 @@
+@keyframes spin
+  from
+    -moz-transform rotate(0deg)
+    -o-transform rotate(0deg)
+    -webkit-transform rotate(0deg)
+    transform rotate(0deg)
+  to
+    -moz-transform rotate(359deg)
+    -o-transform rotate(359deg)
+    -webkit-transform rotate(359deg)
+    transform rotate(359deg)
+
+// ! `:before` animation is not supported well
+// We have to rotate parent, and it should be block/inline-block
+
+.animate-spin
+  -moz-animation                 spin 2s infinite linear
+  -o-animation                   spin 2s infinite linear
+  -webkit-animation              spin 2s infinite linear
+  animation                      spin 2s infinite linear
+
+steps = 0 1 2 3 4 5 6 7 8 9 10 11
+
+@keyframes spin-30
+  0%
+    -moz-transform rotate(0deg)
+    -o-transform rotate(0deg)
+    -webkit-transform rotate(0deg)
+    transform rotate(0deg)
+  8.333333333%
+    -moz-transform rotate(30deg)
+    -o-transform rotate(30deg)
+    -webkit-transform rotate(30deg)
+    transform rotate(30deg)
+  16.666666666%
+    -moz-transform rotate(60deg)
+    -o-transform rotate(60deg)
+    -webkit-transform rotate(60deg)
+    transform rotate(60deg)
+  24.999999999%
+    -moz-transform rotate(90deg)
+    -o-transform rotate(90deg)
+    -webkit-transform rotate(90deg)
+    transform rotate(90deg)
+  33.333333333%
+    -moz-transform rotate(120deg)
+    -o-transform rotate(120deg)
+    -webkit-transform rotate(120deg)
+    transform rotate(120deg)
+  41,666666667%
+    -moz-transform rotate(150deg)
+    -o-transform rotate(150deg)
+    -webkit-transform rotate(150deg)
+    transform rotate(150deg)
+  50%
+    -moz-transform rotate(180deg)
+    -o-transform rotate(180deg)
+    -webkit-transform rotate(180deg)
+    transform rotate(180deg)
+  58.333333333%
+    -moz-transform rotate(210deg)
+    -o-transform rotate(210deg)
+    -webkit-transform rotate(210deg)
+    transform rotate(210deg)
+  66.666666666%
+    -moz-transform rotate(240deg)
+    -o-transform rotate(240deg)
+    -webkit-transform rotate(240deg)
+    transform rotate(240deg)
+  74.999999999%
+    -moz-transform rotate(270deg)
+    -o-transform rotate(270deg)
+    -webkit-transform rotate(270deg)
+    transform rotate(270deg)
+  83.333333333%
+    -moz-transform rotate(300deg)
+    -o-transform rotate(300deg)
+    -webkit-transform rotate(300deg)
+    transform rotate(300deg)
+  91,666666667%
+    -moz-transform rotate(330deg)
+    -o-transform rotate(330deg)
+    -webkit-transform rotate(330deg)
+    transform rotate(330deg)
+  100%
+    -moz-transform rotate(360deg)
+    -o-transform rotate(360deg)
+    -webkit-transform rotate(360deg)
+    transform rotate(360deg)
+
+
+.animate-spin-30
+  -moz-animation                 spin-30 2s cubic-bezier(1,0,0,1) infinite
+  -o-animation                   spin-30 2s cubic-bezier(1,0,0,1) infinite
+  -webkit-animation              spin-30 2s cubic-bezier(1,0,0,1) infinite
+  animation                      spin-30 2s cubic-bezier(1,0,0,1) infinite
+

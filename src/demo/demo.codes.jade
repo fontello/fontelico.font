@@ -20,10 +20,20 @@
       display inline-block
       text-decoration inherit
       min-width 1.2em
-      margin-right .2em
       text-align center
+      margin-right .2em
+
+      // Opera rotation center compensation
+      margin-left .2em
+      //line-height  1em
 
       opacity .8
+
+
+  // Fix for Chrome animation
+  [class^="icon-"], [class*=" icon-"]
+    display inline-block
+
 
 | <style type="text/css">
 
