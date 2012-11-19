@@ -214,36 +214,36 @@ glyphs:
     css: spinner_01
     code: 0xe830
     uid: 72109d2fb3088d0e66ea6a9204297651
-    animate: animate-spin
+    css-ext: animate-spin
     search: [load, progress, wait]
   -
     css: spinner_02
     code: 0xe831
     uid: f0c301ac841dafc38d8eb1b933fc73e5
-    animate: animate-spin
+    css-ext: animate-spin
     search: [load, progress, wait]
   -
     css: spinner_03
     code: 0xe832
     uid: 2a6740fc2f9d0edea54205963f662594
-    animate: animate-spin
+    css-ext: animate-spin
     search: [load, progress, wait]
   -
     css: spinner_05
     code: 0xe834
     uid: 9bd60140934a1eb9236fd7a8ab1ff6ba
-    animate: animate-spin
+    css-ext: animate-spin
     search: [load, progress, wait]
   -
     css: spinner_09
     code: 0xe838
     uid: 5d2d07f112b8de19f2c0dbfec3e42c05
-    animate: animate-spin
+    css-ext: animate-spin
     search: [load, progress, wait]
   -
     css: spinner_10
     code: 0xe839
     uid: 9bc2902722abb366a213a052ade360bc
-    animate: animate-spin
+    css-ext: animate-spin
     search: [load, progress, wait]
 

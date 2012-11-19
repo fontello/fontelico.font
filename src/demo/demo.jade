@@ -80,7 +80,7 @@ html
                 - var g = glyphs[offset + c]
 
                 - var css_class = css_name = meta.css_prefix + (g.css || g.file)
-                - if (g.animate) css_class += ' ' + g.animate
+                - if (g['css-ext']) css_class += ' ' + g['css-ext']
 
                 - var code = g.code.toString(16)
                   li(title='Code: 0x#{code}')
