@@ -110,140 +110,218 @@ font:
 glyphs:
 
   -
-    css: smile_01
+    css: emo-happy
     code: 0xe800
     uid: c64623255a4a7c72436b199b05296c4f
-    search: [emoticon, smiley ]
+    meta:
+      author: Angela Berbentseva, specially for fontello
+      email: berbentseva_angela@yahoo.com
+    search: [emoticon, smiley, happy]
   -
-    css: smile_02
+    css: emo-wink
     code: 0xe801
     uid: 1ba44825e5f10920b4e3f1d0c73f79a2
-    search: [emoticon, smiley ]
+    meta:
+      author: Angela Berbentseva, specially for fontello
+      email: berbentseva_angela@yahoo.com
+    search: [emoticon, smiley, wink]
   -
-    css: smile_03
-    code: 0xe802
-    uid: 53ed8570225581269cd7eff5795e8bea
-    search: [emoticon, smiley ]
-  -
-    css: smile_04
-    code: 0xe803
-    uid: fd59eac4d575b48eb156590b63a355fd
-    search: [emoticon, smiley ]
-  -
-    css: smile_05
-    code: 0xe804
-    uid: 142263941b9f4cd4b2b84f1f4cd13b1d
-    search: [emoticon, smiley ]
-  -
-    css: smile_06
-    code: 0xe805
-    uid: 4dd56d61fd0dab19277824da301424b3
-    search: [emoticon, smiley ]
-  -
-    css: smile_07
-    code: 0xe806
-    uid: 68e298ff2d8b25dd7f647ed64f5ae690
-    search: [emoticon, smiley ]
-  -
-    css: smile_08
-    code: 0xe807
-    uid: bb68a13a3574b087d4350eff0b8d48e3
-    search: [emoticon, smiley ]
-  -
-    css: smile_09
-    code: 0xe808
-    uid: 48cc210e59ff4bc56b6c8fba6eb384b8
-    search: [emoticon, smiley ]
-  -
-    css: smile_10
-    code: 0xe809
-    uid: 078fec38562c3f83a1201a908040c141
-    search: [emoticon, smiley ]
-  -
-    css: smile_11
-    code: 0xe80a
-    uid: 043b585886018be7408f4c77c1a3759c
-    search: [emoticon, smiley ]
-  -
-    css: smile_12
-    code: 0xe80b
-    uid: 043b585886018be7408f4c77c1a3759c
-    search: [emoticon, smiley ]
-  -
-    css: smile_13
-    code: 0xe80c
-    uid: cbc328d1c779a2b9e3b1199d904199a5
-    search: [emoticon, smiley ]
-  -
-    css: smile_14
-    code: 0xe80d
-    uid: f0d3ad15d020cf187d42dd3b2295b65c
-    search: [emoticon, smiley ]
-  -
-    css: smile_15
-    code: 0xe80e
-    uid: 5195e2dcb4a63fbb8c09896a8058f6ab
-    search: [emoticon, smiley ]
-  -
-    css: smile_16
-    code: 0xe80f
-    uid: 04688d76a33ce7a7950e40fae79c08ac
-    search: [emoticon, smiley ]
-  -
-    css: smile_17
-    code: 0xe810
-    uid: 4843d0d6050dd508d4c101a334f46db2
-    search: [emoticon, smiley ]
-  -
-    css: smile_18
-    code: 0xe811
-    uid: fc92480dedc439d274d4e3e4b425edf4
-    search: [emoticon, smiley ]
-  -
-    css: smile_19
-    code: 0xe812
-    uid: 2bd5f98482d86649958312ea2ab5bb40
-    search: [emoticon, smiley ]
-  -
-    css: smile_20
+    css: emo-wink2
     code: 0xe813
     uid: 4bb2045a2aca451705fe8a23c4a576ab
-    search: [emoticon, smiley ]
+    meta:
+      author: Angela Berbentseva, specially for fontello
+      email: berbentseva_angela@yahoo.com
+    search: [emoticon, smiley, wink]
+  -
+    css: emo-unhappy
+    code: 0xe802
+    uid: 53ed8570225581269cd7eff5795e8bea
+    meta:
+      author: Angela Berbentseva, specially for fontello
+      email: berbentseva_angela@yahoo.com
+    search: [emoticon, smiley, unhappy]
+  -
+    css: emo-sleep
+    code: 0xe803
+    uid: fd59eac4d575b48eb156590b63a355fd
+    meta:
+      author: Angela Berbentseva, specially for fontello
+      email: berbentseva_angela@yahoo.com
+    search: [emoticon, smiley, sleep]
+  -
+    css: emo-thumbsup
+    code: 0xe804
+    uid: 142263941b9f4cd4b2b84f1f4cd13b1d
+    meta:
+      author: Angela Berbentseva, specially for fontello
+      email: berbentseva_angela@yahoo.com
+    search: [emoticon, smiley, thumbsup]
+  -
+    css: emo-devil
+    code: 0xe805
+    uid: 4dd56d61fd0dab19277824da301424b3
+    meta:
+      author: Angela Berbentseva, specially for fontello
+      email: berbentseva_angela@yahoo.com
+    search: [emoticon, smiley, devil]
+  -
+    css: emo-surprised
+    code: 0xe806
+    uid: 68e298ff2d8b25dd7f647ed64f5ae690
+    meta:
+      author: Angela Berbentseva, specially for fontello
+      email: berbentseva_angela@yahoo.com
+    search: [emoticon, smiley, surprised]
+  -
+    css: emo-tongue
+    code: 0xe807
+    uid: bb68a13a3574b087d4350eff0b8d48e3
+    meta:
+      author: Angela Berbentseva, specially for fontello
+      email: berbentseva_angela@yahoo.com
+    search: [emoticon, smiley, tongue]
+  -
+    css: emo-coffee
+    code: 0xe808
+    uid: 48cc210e59ff4bc56b6c8fba6eb384b8
+    meta:
+      author: Angela Berbentseva, specially for fontello
+      email: berbentseva_angela@yahoo.com
+    search: [emoticon, smiley, coffee]
+  -
+    css: emo-sunglasses
+    code: 0xe809
+    uid: 078fec38562c3f83a1201a908040c141
+    meta:
+      author: Angela Berbentseva, specially for fontello
+      email: berbentseva_angela@yahoo.com
+    search: [emoticon, smiley, sunglasses]
+  -
+    css: emo-displeased
+    code: 0xe80a
+    uid: 043b585886018be7408f4c77c1a3759c
+    meta:
+      author: Angela Berbentseva, specially for fontello
+      email: berbentseva_angela@yahoo.com
+    search: [emoticon, smiley, displeased]
+  -
+    css: emo-beer
+    code: 0xe80b
+    uid: 043b585886018be7408f4c77c1a3759c
+    meta:
+      author: Angela Berbentseva, specially for fontello
+      email: berbentseva_angela@yahoo.com
+    search: [emoticon, smiley, beer]
+  -
+    css: emo-grin
+    code: 0xe80c
+    uid: cbc328d1c779a2b9e3b1199d904199a5
+    meta:
+      author: Angela Berbentseva, specially for fontello
+      email: berbentseva_angela@yahoo.com
+    search: [emoticon, smiley, grin]
+  -
+    css: emo-angry
+    code: 0xe80d
+    uid: f0d3ad15d020cf187d42dd3b2295b65c
+    meta:
+      author: Angela Berbentseva, specially for fontello
+      email: berbentseva_angela@yahoo.com
+    search: [emoticon, smiley, angry]
+  -
+    css: emo-saint
+    code: 0xe80e
+    uid: 5195e2dcb4a63fbb8c09896a8058f6ab
+    meta:
+      author: Angela Berbentseva, specially for fontello
+      email: berbentseva_angela@yahoo.com
+    search: [emoticon, smiley, saint]
+  -
+    css: emo-cry
+    code: 0xe80f
+    uid: 04688d76a33ce7a7950e40fae79c08ac
+    meta:
+      author: Angela Berbentseva, specially for fontello
+      email: berbentseva_angela@yahoo.com
+    search: [emoticon, smiley, cry]
+  -
+    css: emo-shoot
+    code: 0xe810
+    uid: 4843d0d6050dd508d4c101a334f46db2
+    meta:
+      author: Angela Berbentseva, specially for fontello
+      email: berbentseva_angela@yahoo.com
+    search: [emoticon, smiley, shoot]
+  -
+    css: emo-squint
+    code: 0xe811
+    uid: fc92480dedc439d274d4e3e4b425edf4
+    meta:
+      author: Angela Berbentseva, specially for fontello
+      email: berbentseva_angela@yahoo.com
+    search: [emoticon, smiley, squint]
+  -
+    css: emo-laugh
+    code: 0xe812
+    uid: 2bd5f98482d86649958312ea2ab5bb40
+    meta:
+      author: Angela Berbentseva, specially for fontello
+      email: berbentseva_angela@yahoo.com
+    search: [emoticon, smiley, laugh]
 
   -
-    css: spinner_01
+    css: spin1
     code: 0xe830
     uid: 72109d2fb3088d0e66ea6a9204297651
     css-ext: animate-spin
+    meta:
+      author: Angela Berbentseva, specially for fontello
+      email: berbentseva_angela@yahoo.com
     search: [load, progress, wait]
   -
-    css: spinner_02
+    css: spin2
     code: 0xe831
     uid: f0c301ac841dafc38d8eb1b933fc73e5
     css-ext: animate-spin
+    meta:
+      author: Angela Berbentseva, specially for fontello
+      email: berbentseva_angela@yahoo.com
     search: [load, progress, wait]
   -
-    css: spinner_03
+    css: spin3
     code: 0xe832
     uid: 2a6740fc2f9d0edea54205963f662594
     css-ext: animate-spin
+    meta:
+      author: Angela Berbentseva, specially for fontello
+      email: berbentseva_angela@yahoo.com
     search: [load, progress, wait]
   -
-    css: spinner_05
+    css: spin4
     code: 0xe834
     uid: 9bd60140934a1eb9236fd7a8ab1ff6ba
     css-ext: animate-spin
+    meta:
+      author: Angela Berbentseva, specially for fontello
+      email: berbentseva_angela@yahoo.com
     search: [load, progress, wait]
   -
-    css: spinner_09
+    css: spin5
     code: 0xe838
     uid: 5d2d07f112b8de19f2c0dbfec3e42c05
     css-ext: animate-spin
+    meta:
+      author: Angela Berbentseva, specially for fontello
+      email: berbentseva_angela@yahoo.com
     search: [load, progress, wait]
   -
-    css: spinner_10
+    css: spin6
     code: 0xe839
     uid: 9bc2902722abb366a213a052ade360bc
     css-ext: animate-spin
+    meta:
+      author: Angela Berbentseva, specially for fontello
+      email: berbentseva_angela@yahoo.com
     search: [load, progress, wait]
 
