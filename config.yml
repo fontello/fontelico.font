@@ -325,3 +325,36 @@ glyphs:
       email: berbentseva_angela@yahoo.com
     search: [load, progress, wait]
 
+  -
+    css: firefox
+    code: 0xe840
+    uid: 
+    meta:
+      author: Angela Berbentseva
+      email: berbentseva_angela@yahoo.com
+    search: [browser, firefox]
+  -
+    css: chrome
+    code: 0xe841
+    uid: 
+    meta:
+      author: Angela Berbentseva
+      email: berbentseva_angela@yahoo.com
+    search: [browser, chrome]
+  -
+    css: opera
+    code: 0xe842
+    uid: 
+    meta:
+      author: Angela Berbentseva
+      email: berbentseva_angela@yahoo.com
+    search: [browser, opera]
+  -
+    css: ie
+    code: 0xe843
+    uid: 
+    meta:
+      author: Angela Berbentseva
+      email: berbentseva_angela@yahoo.com
+    search: [browser, ie, bullshit, crap]
+
