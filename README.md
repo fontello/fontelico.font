@@ -10,24 +10,44 @@ If you have not enougth icons, to create independent font, but still wish to
 share - suggest your images here.
 
 
-How to contribute
------------------
+Installation
+------------
 
-Send your icons as SVG images. With your confirmation to distribute
-under [CC BY](http://creativecommons.org/licenses/by/3.0/) license.
+This step is required, if you wish to contribute icons.
 
-- Height should be 1000px
-- Usually, image should be vertically centered, with 5% top and bottom
-  margins. But it depends on content.
+1. You need `node.js` 0.8+ and `fontforge` installed first.
+2. run `npm install` in project folder
+3. (optional) install [ttfautohint](http://www.freetype.org/ttfautohint/). Under
+   Ubuntu just run `make dependencies` command. You can safely skip
+   this step.
 
-About attribution. Since Fontelico collaborates works from multiple authors,
-we keep minimal attribution requirements, to be comfortable for users:
 
-- You will be listed in contributors list, and any special details in font config file.
-- When people uses Fontelico arts, mentioning of Fontelico in human readable
-  form is considered enougth. Even if this is mentioned in HTML or CSS sources.
-  And mentioning is not mandatory at all. We don't wish to force users giving links,
-  tweets, buying coffee and so on.
+Contributing
+------------
+
+Note, we accept icons under pure CC BY license, without additional requirements.
+Please, don't add icons, which require users to give links, mention author and
+do any other kinds of promotion.
+
+1. Create fork and clone your repo locally.
+2. Add icon to `./src/svg_orig` folder
+  - icon should be 1000x1000
+  - black and white, no colors
+  - no fills, filling is defined by contour direction
+3. run `make dump`, it will automatically reoptimize images
+4. check result in `./src/svg` folder. It should contain only on `path`
+   in it. If you are satisfied, copy your image back to `./svg_orig`
+5. Edit `config.yaml`, add your icon description there. Every icon MUST have
+   unique id. You can generate those by command
+   `node -e "for(var i=10; i>0; i--) console.log(require('crypto').randomBytes(16).toString('hex'));"`
+6. That's not mandatory, but you can built font with `make dist` command
+7. Commit content of `./src` folder and make pull request on github.
+   _Attention! Don't commit font files!_ That can create unnesessary
+   merge conflicts.
+
+If this is difficult for you, just create new [ticket](https://github.com/fontello/brandico.font/issues)
+and attach there your icon, as described in step 2, and icon description. We will
+do the rest
 
 
 Contributors
@@ -50,9 +70,11 @@ Vitaly Puzrin (Fontello project)
 Licence
 -------
 
-* Font provided under SIL license, by [fontello.com](http://fontello.com)
-* Artworks provided under [CC BY](http://creativecommons.org/licenses/by/3.0/)
-  licence. If you use Fontelico in your project - we would be glad, if you
-  mention it somewhere, where you feel comfortable: in `about` page,
-  in HTML source, or somewhere else. But that's not mandatory.
+Font is distributed under
+[SIL](http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL) licence.
 
+All icons are distributed under
+[CC BY](http://creativecommons.org/licenses/by-sa/3.0/) licence.
+
+We suggest to use this font via [fontello](http://fontello.com) project, but
+you also can materials in any other way, if follow license.
