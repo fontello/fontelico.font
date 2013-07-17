@@ -357,4 +357,28 @@ glyphs:
       author: Angela Berbentseva
       email: berbentseva_angela@yahoo.com
     search: [browser, ie, bullshit, crap]
+  -
+    css: crown
+    code: 0xe844
+    uid: 186dec7a13156bbe2550790c158fb85d
+    meta:
+      author: Sebastian Janzen
+      email: sebastian.janzen@hl-services.de
+    search: [crown, leader]
+  -
+    css: crown-plus
+    code: 0xe845
+    uid: 36ef9feb0754335302784521267a9ad4
+    meta:
+      author: Sebastian Janzen
+      email: sebastian.janzen@hl-services.de
+    search: [crown, plus, leader, add]
+  -
+    css: crown-minus
+    code: 0xe846
+    uid: ec8496ef645f3be7b28147ec60cd9ab1
+    meta:
+      author: Sebastian Janzen
+      email: sebastian.janzen@hl-services.de
+    search: [crown, minus, leader, remove]
 
