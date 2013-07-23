@@ -31,9 +31,10 @@ do any other kinds of promotion.
 
 1. Create fork and clone your repo locally.
 2. Add icon to `./src/svg_orig` folder
-  - icon should be 1000x1000
-  - black and white, no colors
-  - no fills, filling is defined by contour direction
+  - icon should be 1000x[width]. If you don't have reasons to change centering - just crop icon from left & right
+  - black and white, no colors, no fills (filling is defined by contour direction)
+  - visually center icon around MIDDLE line (if you don't have reasons for another align)
+  - check icons at small size (14px or 20px, for example)! probably, you will need to increase line/spaces width, to make icon more sharp.
 3. run `make dump`, it will automatically reoptimize images
 4. check result in `./src/svg` folder. It should contain only on `path`
    in it. If you are satisfied, copy your image back to `./svg_orig`
