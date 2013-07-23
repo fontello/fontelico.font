@@ -55,6 +55,8 @@ Contributors
 
 - Angela Berbentseva (emoticons, spinners).
   [Email](mailto:berbentseva_angela@yahoo.com)
+- Sebastian Janzen (crowns).
+  [Email](sebastian.janzen@hl-services.de), [@sja](https://github.com/sja)
 
 
 Contacts
