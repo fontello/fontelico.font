@@ -389,4 +389,11 @@ glyphs:
       author: Doug Griffith
       email: doug@brotherhoodproducts.com
     search: [marquee]
-
+  -
+    css: welsh-dragon
+    code: 0xe848
+    uid: d5e798a3157c995f8059458f0f1bf759
+    meta:
+      author: Mikey O'Toole
+      email: mikey@mjco.ltd.uk
+    search: [welsh, dragon, wales]
