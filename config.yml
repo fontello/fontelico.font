@@ -389,4 +389,11 @@ glyphs:
       author: Doug Griffith
       email: doug@brotherhoodproducts.com
     search: [marquee]
-
+  -
+    css: tuxik
+    code: 0xe848
+    uid: c858f2fbe9cd5a5d8edf54dcfba091da
+    meta:
+      author: Kirill Jakovlev
+      email: special-k@li.com
+    search: [tuxik]
