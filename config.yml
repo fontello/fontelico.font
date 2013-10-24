@@ -389,4 +389,11 @@ glyphs:
       author: Doug Griffith
       email: doug@brotherhoodproducts.com
     search: [marquee]
-
+  -    
+    css: bwsimple
+    code: 0xe848
+    uid: 7f5ed7636fe05570f1888818cd124758
+    meta:
+      author: Anthony Oduor
+      email: aowino@gmail.com
+    search: [bwsimple, blackwhitesimple,black,white,siimple]
