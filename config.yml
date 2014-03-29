@@ -389,4 +389,12 @@ glyphs:
       author: Doug Griffith
       email: doug@brotherhoodproducts.com
     search: [marquee]
+  - 
+    css: codepen
+    code: 0xe848
+    uid: 5307c132c396af052ea057ae3b829a11
+    meta:
+      author: Jerome Arfouche
+      email: jerome.arfouche@gmail.com
+    search: [codepen, code, pen]
 
