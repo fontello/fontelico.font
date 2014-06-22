@@ -91,8 +91,6 @@ meta:
 #  rescale: 2.4
 
 font:
-  version: "1.0"
-
   # use !!!small!!! letters a-z, or Opera will fail under OS X
   # fontname will be also used as file name.
   fontname: fontelico
