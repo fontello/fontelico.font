@@ -387,4 +387,19 @@ glyphs:
       author: Doug Griffith
       email: doug@brotherhoodproducts.com
     search: [marquee]
-
+  -
+    css: google-drive
+    code: 0xe848
+    uid: 1a0871b04a2b4d993b18a94b49e5e948
+    meta:
+      author: Florian Reuschel
+      email: florian.reuschel@gmx.de
+    search: [google, drive, docs]
+  -
+    css: google-drive-o
+    code: 0xe849
+    uid: ace2f7fae9f4c4337627ea7451ba8432
+    meta:
+      author: Florian Reuschel
+      email: florian.reuschel@gmx.de
+    search: [google, drive, docs, outline]
