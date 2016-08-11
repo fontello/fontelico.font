@@ -387,4 +387,12 @@ glyphs:
       author: Doug Griffith
       email: doug@brotherhoodproducts.com
     search: [marquee]
+  -
+    css: world
+    code: 0xe848
+    uid: 3c42349631437e04d3a0a6ec13319adc
+    meta:
+      author: Luuk S. van Houdt
+      email: info@lsvh.org
+    search: [world, internet, www, web]
 

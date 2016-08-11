@@ -58,8 +58,9 @@ Contributors
 - Angela Berbentseva (emoticons, spinners).
   [Email](mailto:berbentseva_angela@yahoo.com)
 - Sebastian Janzen (crowns).
-  [Email](sebastian.janzen@hl-services.de), [@sja](https://github.com/sja)
-
+  [Email](mailto:sebastian.janzen@hl-services.de), [@sja](https://github.com/sja)
+- Luuk S. van Houdt (world, bandcamp).
+  [Email](mailto:info@lsvh.org)
 
 Contacts
 --------
