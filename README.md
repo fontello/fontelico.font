@@ -59,7 +59,8 @@ Contributors
   [Email](mailto:berbentseva_angela@yahoo.com)
 - Sebastian Janzen (crowns).
   [Email](sebastian.janzen@hl-services.de), [@sja](https://github.com/sja)
-
+- Luuk S. van Houdt (world, bandcamp).
+  [Email](info@lsvh.org)
 
 Contacts
 --------
