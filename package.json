@@ -1,4 +1,13 @@
 {
+  "repository"      : {
+                        "type"              : "git",
+                        "url"               : "https://github.com/fontello/fontelico.font"
+  },
+  "author"          : "Vitaly Puzrin <vitaly@rcdesign.ru> (https://twitter.com/puzrin)",
+  "contributors"    : [
+                        "Angela Berbentseva <berbentseva_angela@yahoo.com>",
+                        "Sebastian Janzen <sebastian.janzen@hl-services.de> (http://hl-services.de)"
+  ],
   "dependencies"    : {
                         "svg-font-dump"     : "~ 0.0.1",
                         "svg-font-create"   : "~ 0.0.1",
